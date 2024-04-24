@@ -19,9 +19,9 @@ function Header() {
      { id: 4, text: 'CONTACT',toLink:'contact'},
    ];
     return (
-      <div className='bg-white flex justify-between items-center h-24 max-w-auto mx-auto lg:px-20 px-8 text-white'>
+      <div className='bg-white flex justify-between items-center h-20 max-w-auto mx-auto lg:px-20 pl-8 text-white'>
       {/* Logo */}
-      <h1 className='basis-1/4 text-3xl font-bold text-[#00df9a]'>KARAN.</h1>
+      <h1 className='basis-1/2 text-3xl font-bold text-[#00df9a]'>KARAN.</h1>
 
       {/* Desktop Navigation */}
       <div className='hidden md:flex '>    
@@ -64,8 +64,8 @@ function Header() {
      
      
       {/* Mobile Navigation Icon */}
-      <div onClick={handleNav} className='block md:hidden'>
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      <div onClick={handleNav} className='block md:hidden basis-1/4'>
+        {nav ? <AiOutlineClose size={30} color={"black"} /> : <AiOutlineMenu size={30} color={"black"} />}
       </div>
 
       {/* Mobile Navigation Menu */}

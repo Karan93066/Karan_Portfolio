@@ -7,12 +7,12 @@ function About_me(props) {
                <h1>About Me</h1>
                <hr class="w-16 h-3 mx-auto my-2 bg-[#00df9a] border-0 rounded md:my-5 "/>
             </div>
-            <div className='flex mx-28 my-12 gap-12'>
+            <div className='lg:flex lg:mx-28 lg:my-12 mx-6 my-6 gap-12 '>
              <div className='basis-1/2'>
-                <div className='font-bold text-2xl my-4'>
+                <div className='font-bold text-2xl text-center lg:text-left my-8'>
                     <h1>Get to know about me!</h1>
                 </div>
-                <div>
+                <div className='text-justify'>
                     <p className='my-4 text-[#666] text-xl'>
                         I'm a <b>Frontend Focused Web Developer</b>, dedicated to crafting and overseeing the frontend of Websites and Web Applications,
                         essential for driving the overall success of digital products. Check out my portfolio showcasing projects that highlight
@@ -29,7 +29,7 @@ function About_me(props) {
                 </div>
              </div>
              <div className='basis-1/2'>
-             <div className='font-bold text-2xl my-4'>
+             <div className='font-bold text-2xl lg:my-4 text-center lg:text-left'>
                     <h1>My Skills</h1>
                 </div>
                 <div className='flex flex-wrap'>

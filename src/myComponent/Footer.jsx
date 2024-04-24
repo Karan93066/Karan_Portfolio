@@ -4,7 +4,7 @@ import { BsInstagram } from "react-icons/bs";
 function Footer() {
     return (
         <div className="bg-black">
-            <div className="flex px-60 py-8">
+            <div className="flex lg:flex-row flex-col lg:px-60 lg:py-8 px-16 py-4">
                <div className="basis-1/2">
                 <h1 className=' text-3xl font-bold text-[#00df9a]'>KARAN.</h1>
                 <p className="py-8 text-white">
@@ -12,11 +12,9 @@ function Footer() {
                 Applications that leads to the success of the overall product
                 </p>
                </div>
-               <div className="basis-1/2">
-                <div>
-                <h1 className=' text-3xl text-right font-bold text-[#ffffff]'>Socials</h1>
-                </div>
-               <div className='flex flex-row gap-4 py-4 text-[#ffffff] justify-end'>
+               <div className="basis-1/2 w-full">              
+                <h1 className=' text-3xl lg:text-right text-left font-bold text-[#ffffff]'>Socials</h1>
+               <div className='flex flex-row gap-4 py-4 text-[#ffffff] lg:justify-end'>
                <div className='m-2 cursor-pointer'>
         <a href="https://www.instagram.com/karan_sing12/" target="_blank" rel="noopener noreferrer" >
       <BsInstagram size={25}/>
