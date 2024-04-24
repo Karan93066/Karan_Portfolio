@@ -40,7 +40,7 @@ function Project() {
         </div>
         <div class="basis-1/2 ">
         <img
-      src="./src/assets/Portfolio.png"
+      src="./src/assets/EMS.png"
       alt="Portfolio Image"
       className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
     />
