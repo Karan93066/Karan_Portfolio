@@ -1,7 +1,7 @@
 import React from 'react';
 function Contact() {
     return (
-        <div class=" bg-[url('src/assets/common-bg.svg')] lg:py-20">
+        <div class=" bg-[url('/common-bg.svg')] lg:py-20">
            <div id="contact">
   <div class="container mx-auto">
     <h1 class="font-bold w-fit mx-auto text-5xl tracking-wider contact_load text-[#00df9a]">Contact Me</h1>

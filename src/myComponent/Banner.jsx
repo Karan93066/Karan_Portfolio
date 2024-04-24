@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 function Banner() {
     return (
-        <div className="bg-[url('src/assets/common-bg.svg')] lg:py-20 lg:h-[700px]">
+        <div className="bg-[url('/common-bg.svg')] lg:py-20 lg:h-[700px]">
             <h1 className="text-6xl font-bold text-center mt-16">HEY, I'M KARAN</h1>
             <div className="py-12">
             <p className="text-xl font-large text-center lg:px-80">

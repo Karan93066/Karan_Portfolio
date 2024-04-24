@@ -40,7 +40,7 @@ function Project() {
         </div>
         <div class="basis-1/2 ">
         <img
-      src="./src/assets/EMS.png"
+      src="/EMS.png"
       alt="Portfolio Image"
       className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
     />
@@ -50,7 +50,7 @@ function Project() {
         <div class="flex gap-8 justify-evenly mx-32">
         <div class="basis-1/2 ">
         <img
-      src="./src/assets/WatchOTT.png"
+      src="/WatchOTT.png"
       alt="Portfolio Image"
       className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
     />
@@ -106,7 +106,7 @@ function Project() {
         </div>
         <div class="basis-1/2 ">
         <img
-      src="./src/assets/a2zpassword.png"
+      src="/a2zpassword.png"
       alt="A2zpassword Image"
       className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
     />
@@ -115,7 +115,7 @@ function Project() {
       <div class="flex gap-8 justify-evenly mx-32">
       <div class="basis-1/2 ">
         <img
-      src="./src/assets/CleaningSoilder.png"
+      src="/CleaningSoilder.png"
       alt="Cleaning Soilder Image"
       className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
     />
@@ -171,7 +171,7 @@ function Project() {
         </div>
         <div class="basis-1/2 ">
         <img
-      src="./src/assets/Portfolio.png"
+      src="/Portfolio.png"
       alt="Portfolio Image"
       className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
     />
