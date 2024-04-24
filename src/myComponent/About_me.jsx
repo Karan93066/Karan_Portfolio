@@ -2,7 +2,7 @@ import React from 'react';
 
 function About_me(props) {
     return (
-        <div className='py-12 bg-gray-100'>
+        <div className='py-12 bg-gray-100' id='about'>
             <div className='text-center text-3xl text-[#00df9a] font-bold'>
                <h1>About Me</h1>
                <hr class="w-16 h-3 mx-auto my-2 bg-[#00df9a] border-0 rounded md:my-5 "/>

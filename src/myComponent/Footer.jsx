@@ -17,14 +17,20 @@ function Footer() {
                 <h1 className=' text-3xl text-right font-bold text-[#ffffff]'>Socials</h1>
                 </div>
                <div className='flex flex-row gap-4 py-4 text-[#ffffff] justify-end'>
-        <div className='m-2 cursor-pointer '>
-        <BsInstagram size={30}/>
+               <div className='m-2 cursor-pointer'>
+        <a href="https://www.instagram.com/karan_sing12/" target="_blank" rel="noopener noreferrer" >
+      <BsInstagram size={25}/>
+    </a>
         </div>
         <div className='m-2 cursor-pointer'>
-        <AiFillLinkedin size={30}/>
+        <a href="https://www.linkedin.com/in/karan-singh-34bb13236/" target="_blank" rel="noopener noreferrer" >
+        <AiFillLinkedin size={25}/>
+        </a>
         </div>
         <div className='m-2 cursor-pointer'>
-        <AiFillGithub size={30}/>
+        <a href="https://github.com/Karan93066" target="_blank" rel="noopener noreferrer" >
+        <AiFillGithub size={25}/>
+        </a>
         </div>
       </div>
                </div>

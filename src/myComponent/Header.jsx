@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { AiOutlineClose, AiOutlineMenu ,AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import { BsInstagram } from "react-icons/bs";
+import { Link } from 'react-scroll';
 function Header() {
    // State to manage the navbar's visibility
    const [nav, setNav] = useState(false);
@@ -12,10 +13,10 @@ function Header() {
  
    // Array containing navigation items
    const navItems = [
-     { id: 1, text: 'HOME' },
-     { id: 2, text: 'ABOUT' },
-     { id: 3, text: 'PROJECTS' },
-     { id: 4, text: 'CONTACT' },
+     { id: 1, text: 'HOME',toLink:'' },
+     { id: 2, text: 'ABOUT',toLink:'about' },
+     { id: 3, text: 'PROJECTS',toLink:'projects' },
+     { id: 4, text: 'CONTACT',toLink:'contact'},
    ];
     return (
       <div className='bg-white flex justify-between items-center h-24 max-w-auto mx-auto lg:px-20 px-8 text-white'>
@@ -30,19 +31,33 @@ function Header() {
             key={item.id}
             className='p-4 font-bold text-black rounded-xl m-2 cursor-pointer duration-300 hover:text-[#00df9a]'
           >
-            {item.text}
+             <Link
+            activeClass="active"
+            to={item.toLink}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >{item.text}</Link>
+            
           </li>
         ))}
       </ul>
       <div className='md:flex text-black p-4 gap-4 '>
         <div className='m-2 hover:text-[#00df9a]'>
-        <BsInstagram size={25}/>
+        <a href="https://www.instagram.com/karan_sing12/" target="_blank" rel="noopener noreferrer" >
+      <BsInstagram size={25}/>
+    </a>
         </div>
         <div className='m-2 hover:text-[#00df9a]'>
+        <a href="https://www.linkedin.com/in/karan-singh-34bb13236/" target="_blank" rel="noopener noreferrer" >
         <AiFillLinkedin size={25}/>
+        </a>
         </div>
         <div className='m-2 hover:text-[#00df9a]'>
+        <a href="https://github.com/Karan93066" target="_blank" rel="noopener noreferrer" >
         <AiFillGithub size={25}/>
+        </a>
         </div>
       </div>
       </div>
@@ -75,13 +90,19 @@ function Header() {
         ))}
        <div className='flex flex-row p-4 '>
         <div className='m-2 cursor-pointer'>
-        <BsInstagram size={25}/>
+        <a href="https://www.instagram.com/karan_sing12/" target="_blank" rel="noopener noreferrer" >
+      <BsInstagram size={25}/>
+    </a>
         </div>
         <div className='m-2 cursor-pointer'>
+        <a href="https://www.linkedin.com/in/karan-singh-34bb13236/" target="_blank" rel="noopener noreferrer" >
         <AiFillLinkedin size={25}/>
+        </a>
         </div>
         <div className='m-2 cursor-pointer'>
+        <a href="https://github.com/Karan93066" target="_blank" rel="noopener noreferrer" >
         <AiFillGithub size={25}/>
+        </a>
         </div>
       </div>
       </ul>
