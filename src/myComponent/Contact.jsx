@@ -1,7 +1,7 @@
 import React from 'react';
 function Contact() {
     return (
-        <div   id="contact" className="relative h-[100vh] bg-[url('/contact_background.jpg')] opacity-[0.9] bg-fixed lg:py-20 py-16 bg-cover ">
+        <div   id="contact" className="relative h-[100vh] bg-[url('/contact_background.webp')] opacity-[0.9] bg-fixed lg:py-20 py-16 bg-cover ">
   <div className="container mx-auto lg:mt-10">
     <h1 className="font-bold w-fit mx-auto text-5xl tracking-wider contact_load text-[#00df9a] ">Contact Me</h1>
     <div className='text-center text-xl text-white py-6 lg:px-52'>

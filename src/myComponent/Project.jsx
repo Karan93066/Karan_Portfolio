@@ -51,9 +51,8 @@ function Project() {
             </div>
             <div class="basis-1/2 entry_media">
               <img
-                src="/EMS.png"
+                src="/EMS.webp"
                 alt="Portfolio Image"
-                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -86,9 +85,8 @@ function Project() {
             </div>
             <div class="basis-1/2 ">
               <img
-                src="/WatchOTT.png"
+                src="/WatchOTT.webp"
                 alt="Portfolio Image"
-                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -126,9 +124,8 @@ function Project() {
             </div>
             <div class="basis-1/2 ">
               <img
-                src="/a2zpassword.png"
+                src="/a2zpassword.webp"
                 alt="A2zpassword Image"
-                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -164,9 +161,8 @@ function Project() {
             </div>
             <div class="basis-1/2 ">
               <img
-                src="/CleaningSoilder.png"
+                src="/CleaningSoilder.webp"
                 alt="Cleaning Soilder Image"
-                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -204,9 +200,8 @@ function Project() {
             </div>
             <div class="basis-1/2 ">
               <img
-                src="/Portfolio.png"
+                src="/Portfolio.webp"
                 alt="Portfolio Image"
-                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
