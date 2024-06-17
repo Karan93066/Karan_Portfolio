@@ -1,25 +1,26 @@
-import React from "react";
+import React from 'react';
 
 function Project() {
+
   return (
     <>
-      <div className="py-12" id="projects">
+      <div className="py-12 bg-black" id="projects">
         <div className="text-center text-3xl text-[#00df9a] font-bold">
           <h1>Projects</h1>
           <hr className="w-16 h-3 mx-auto my-2 bg-[#00df9a] border-0 rounded md:my-5 " />
         </div>
-        <div className="text-center text-xl text-[#666] py-6 lg:px-52">
-          <h2>
+        <div className="text-center text-xl text-[#fff] py-6 lg:px-52">
+          <h1>
             Explore a range of projects I've worked on, including personal and
             client-based endeavors. Each project comes with its own case study,
             offering insights into my creative process and problem-solving
             approach.
-          </h2>
+          </h1>
         </div>
-        <div class="container project_container relative py-8 flex flex-col gap-16 md:gap-24 px-4 sm:px-0 sm:mx-auto">
-          <div class="lg:flex gap-8 lg:justify-evenly lg:mx-32">
-            <div className="basis-1/2">
-              <h1 class="font-bold tracking-wider text-xl">
+        <div class="container project_container relative py-8 flex flex-col gap-16 md:gap-24 px-4 sm:px-0 sm:mx-auto text-white">
+          <div class="lg:flex gap-8 lg:justify-evenly lg:mx-32 lg:my-16 entry">
+            <div className="basis-1/2 entry_meta">
+              <h1 class="font-bold tracking-wider text-2xl text-[#00df9a]">
                 Employee Management System
               </h1>
               <p class="py-4 text-lg">
@@ -31,35 +32,35 @@ function Project() {
               </p>
               <p className="text-lg font-semibold">Technology Used</p>
               <div className="flex flex-wrap py-4">
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   JavaScript
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   React.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Node.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   MySql
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Github
                 </div>
               </div>
             </div>
-            <div class="basis-1/2 ">
+            <div class="basis-1/2 entry_media">
               <img
                 src="/EMS.png"
                 alt="Portfolio Image"
-                className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
+                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
           </div>
 
-          <div class="lg:flex flex-row-reverse gap-8 justify-evenly lg:mx-32">
+          <div class="lg:flex flex-row-reverse gap-8 justify-evenly lg:mx-32 lg:my-16">
             <div className="basis-1/2">
-              <h1 class="font-bold tracking-wider text-xl">Watch OTT Party</h1>
+              <h1 class="font-bold tracking-wider text-2xl text-[#00df9a]">Watch OTT Party</h1>
               <p class="py-4 text-lg">
                 Allows multiple users to watch synchronized videos from various
                 OTT platforms (YouTube, Netflix, Prime, Hotstar) and provides
@@ -68,16 +69,16 @@ function Project() {
               </p>
               <p className="text-lg font-semibold">Technology Used</p>
               <div className="flex flex-wrap py-4">
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   JavaScript
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   React.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Node.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Github
                 </div>
               </div>
@@ -86,13 +87,13 @@ function Project() {
               <img
                 src="/WatchOTT.png"
                 alt="Portfolio Image"
-                className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
+                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
           </div>
-          <div class="lg:flex gap-8 justify-evenly lg:mx-32">
+          <div class="lg:flex gap-8 justify-evenly lg:mx-32 lg:my-16">
             <div className="basis-1/2">
-              <h1 class="font-bold tracking-wider text-xl">a2zpassword</h1>
+              <h1 class="font-bold tracking-wider text-2xl text-[#00df9a]">a2zpassword</h1>
               <p class="py-4 text-lg">
                 Led the development of an SEO-optimized website aimed at
                 promoting the a2zpassword Chrome extension. Leveraged ReactJS
@@ -104,19 +105,19 @@ function Project() {
               </p>
               <p className="text-lg font-semibold">Technology Used</p>
               <div className="flex flex-wrap py-4">
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   HTML
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Tailwind CSS
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   JavaScript
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   React.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Github
                 </div>
               </div>
@@ -125,14 +126,14 @@ function Project() {
               <img
                 src="/a2zpassword.png"
                 alt="A2zpassword Image"
-                className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
+                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
           </div>
-          <div class="lg:flex flex-row-reverse gap-8 justify-evenly lg:mx-32">
+          <div class="lg:flex flex-row-reverse gap-8 justify-evenly lg:mx-32 lg:my-16">
 
             <div className="basis-1/2">
-              <h1 class="font-bold tracking-wider text-xl">Cleaning Soldier</h1>
+              <h1 class="font-bold tracking-wider text-2xl text-[#00df9a]">Cleaning Soldier</h1>
               <p class="py-4 text-lg">
                 Developed a user-friendly website for a house cleaning service,
                 prioritizing ease of navigation and functionality. Utilized
@@ -142,18 +143,18 @@ function Project() {
                 bolstering the website's online presence and attracting
                 potential clients.
               </p>
-              <p className="text-lg font-semibold">Technology Used</p>
+              <p className="text-lg font-semibold ">Technology Used</p>
               <div className="flex flex-wrap py-4">
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   JavaScript
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   React.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Node.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Github
                 </div>
               </div>
@@ -162,13 +163,13 @@ function Project() {
               <img
                 src="/CleaningSoilder.png"
                 alt="Cleaning Soilder Image"
-                className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
+                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
           </div>
-          <div class="lg:flex gap-8 justify-evenly lg:mx-32">
+          <div class="lg:flex gap-8 justify-evenly lg:mx-32 lg:my-16">
             <div className="basis-1/2">
-              <h1 class="font-bold tracking-wider text-xl">
+              <h1 class="font-bold tracking-wider text-2xl text-[#00df9a]">
                 Portfolio Website
               </h1>
               <p class="py-4 text-lg">
@@ -180,28 +181,28 @@ function Project() {
               </p>
               <p className="text-lg font-semibold">Technology Used</p>
               <div className="flex flex-wrap py-4">
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   HTML
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Tailwind CSS
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   JavaScript
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   React.js
                 </div>
-                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#666] rounded-xl font-semibold">
+                <div className="px-4 py-2 m-2 text-lg bg-[#9D9C9C33] text-[#c8c8c8] rounded-xl font-semibold tada-hover">
                   Github
                 </div>
-              </div>
+              </div> 
             </div>
             <div class="basis-1/2 ">
               <img
                 src="/Portfolio.png"
                 alt="Portfolio Image"
-                className="border-2 border-transparent rounded-2xl shadow-md transition-transform hover:scale-105 hover:shadow-xl"
+                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
           </div>
