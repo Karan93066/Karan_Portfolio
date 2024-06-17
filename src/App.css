@@ -6,3 +6,21 @@
   font-family: "Raleway", sans-serif;
 }
 
+/* App.css */
+.App {
+  position: relative;
+  transition: opacity 1s ease-in-out;
+}
+
+.App.loading .content {
+  opacity: 0;
+}
+
+.App.loaded .content {
+  opacity: 1;
+}
+
+.content {
+  
+  transition: opacity 1s ease-in-out;
+}

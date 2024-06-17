@@ -53,6 +53,7 @@ function Project() {
               <img
                 src="/EMS.png"
                 alt="Portfolio Image"
+                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -87,6 +88,7 @@ function Project() {
               <img
                 src="/WatchOTT.png"
                 alt="Portfolio Image"
+                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -126,6 +128,7 @@ function Project() {
               <img
                 src="/a2zpassword.png"
                 alt="A2zpassword Image"
+                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -163,6 +166,7 @@ function Project() {
               <img
                 src="/CleaningSoilder.png"
                 alt="Cleaning Soilder Image"
+                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
@@ -202,6 +206,7 @@ function Project() {
               <img
                 src="/Portfolio.png"
                 alt="Portfolio Image"
+                loading="lazy"
                 className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
               />
             </div>
