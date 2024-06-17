@@ -57,6 +57,7 @@ h2::before {
   width: 15ch;
   place-items: center;
   animation: typing 4s steps(15), blink .5s step-end infinite alternate;
+  animation-delay: 4s;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
