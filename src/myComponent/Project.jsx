@@ -53,7 +53,7 @@ function Project() {
               <img
                 src="/EMS.webp"
                 alt="Portfolio Image"
-                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
+                className="border-2 lg:h-full border-transparent rounded-2xl shadow-md hover-animation	object-fit: cover;"
               />
             </div>
           </div>
@@ -87,7 +87,7 @@ function Project() {
               <img
                 src="/WatchOTT.webp"
                 alt="Portfolio Image"
-                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
+                className="border-2 lg:h-full border-transparent rounded-2xl shadow-md hover-animation object-fit: cover;"
               />
             </div>
           </div>
@@ -126,7 +126,7 @@ function Project() {
               <img
                 src="/a2zpassword.webp"
                 alt="A2zpassword Image"
-                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
+                className="border-2 lg:h-full border-transparent rounded-2xl shadow-md hover-animation	object-fit: cover;"
               />
             </div>
           </div>
@@ -163,7 +163,7 @@ function Project() {
               <img
                 src="/CleaningSoilder.webp"
                 alt="Cleaning Soilder Image"
-                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
+                className="border-2 lg:h-full border-transparent rounded-2xl shadow-md hover-animation object-fit: cover;"
               />
             </div>
           </div>
@@ -202,7 +202,7 @@ function Project() {
               <img
                 src="/Portfolio.webp"
                 alt="Portfolio Image"
-                className="border-2 h-full border-transparent rounded-2xl shadow-md hover-animation"
+                className="border-2 lg:h-full border-transparent rounded-2xl shadow-md hover-animation object-fit: cover;"
               />
             </div>
           </div>

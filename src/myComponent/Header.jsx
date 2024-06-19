@@ -74,6 +74,7 @@ function Header() {
           autoPlay
           muted
           loop
+          playsinline
         ></video>
         <div className="stick top-0 z-50 flex justify-between items-center h-20 max-w-auto mx-auto lg:px-20 pl-8 text-white bg-black bg-opacity-75">
           <div className="basis-1/2">
